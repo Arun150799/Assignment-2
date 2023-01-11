@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+#counter{
+    width: 55px;
+    height: 40px;
+    background-color: rgb(40, 40, 136);
+    color: black;
+    margin-top: 220px;
+    margin-left: 5px;
+    padding-left: 26px;
+    font-size: 35px;
+    border-radius: 5px;
+}
+h1{
+    position: relative;
+    left: 146px;
+    font-size:55px;
+}
+.btn-container{
+    font-size: 25px;
+    position: relative;
+    left: -160px;
+    top: 370px;
+}
+.increase{
+    height: 33px;
+    background-color: blue;
+    font-size: 20px;
+}
+.decrease{
+    background-color: red;
+    font-size: 20px;
+}
+.reset{
+    height: 33px;
+
+    background-color: blueviolet;
+    font-size: 20px;
+}
